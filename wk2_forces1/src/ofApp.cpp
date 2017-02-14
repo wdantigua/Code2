@@ -34,7 +34,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-     ofTranslate(0,ofGetHeight()/2);
+//     ofTranslate(0,ofGetHeight()/2);
     ofTranslate(ofGetWidth()/2, amp*sin(ang + ofGetHeight()/2));
     ofRotate(amp*sin(ang)*0.2);
     ofSetColor(255);
