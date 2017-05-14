@@ -17,7 +17,7 @@ flowfield::flowfield()
     cols = ofGetWindowWidth()/res;
     rows = ofGetWindowHeight()/res;
     
-    field [cols][rows];
+    ofVec2f field [cols][rows];
     init();
 }
 void flowfield::init()

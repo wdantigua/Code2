@@ -20,5 +20,6 @@ public:
    
     int cols,rows;
     int res;
-     ofVec2f field [][];
+    ofVec2f field [][];
+
 };
