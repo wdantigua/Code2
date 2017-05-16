@@ -10,7 +10,7 @@ class ofApp : public ofBaseApp{
 		void draw();
         void branching(float z,float g);
     
-    float theta,rDeg=TWO_PI,x,y;
+    float theta,rDeg=TWO_PI,x,y,dec;
     int g,hh,hw;
 
 		
